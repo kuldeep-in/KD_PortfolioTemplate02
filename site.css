@@ -1,0 +1,59 @@
+
+:root {
+    --font-family: "MyFont01", 'Titillium Web', sans-serif;
+    --bgColor1: #0a1930;
+    --bgColor2: #172b46;
+    --bgColor3: #1d3658;
+    --fontColor1: #cadaf8;
+    --fontColor2: #BFBFBF;
+    --fontColor3: #919191;
+    --fontColor4Green: #62c2bc;
+    --buttonColor1: #30686f;
+    --githubColor: #141618;
+    --twittorColor: #26A7DE;
+    --linkedinColor: #0A66C2;
+    --color-gray-9: #0d1117;
+    --color-gray-8: #161b22;
+    --color-gray-7: #21262d;
+    --color-gray-6: #30363d;
+    --color-gray-5: #484f58;
+    --color-blue-text-1: #2F81F7;
+}
+
+body {
+    position: relative !important; /* required */
+    padding-top: 70px; /* prevent content to go underneath the fixed navbar */
+    background-color: var(--color-gray-8) !important;
+    /*margin-left: 6% !important;
+    margin-right: 4% !important;*/
+}
+
+.user-pic {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-gray-7) !important;
+    
+}
+
+.user-pic-div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.nav a.active {
+    color: var(--fontColor1) !important;
+    background-color: var(--color-gray-7) !important;
+}
+
+.nav a {
+    color: var(--color-blue-text-1) !important;
+}
+
+.right-col {
+    width: 100%;
+    margin-left: 0;
+}
+
+.left-col {
+    display: none;
+}
